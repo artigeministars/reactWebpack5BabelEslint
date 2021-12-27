@@ -65,6 +65,7 @@ const config: Configuration = {
  	 resolve: {
     alias: {
       "@components":path.resolve("./src/components/"),
+      "@utils":path.resolve("./src/utils/"),
     },
     extensions: [".tsx", ".ts", ".js",".scss",".css",".json"],
   },

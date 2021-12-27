@@ -1,1 +1,1 @@
-export Utils from constants;
+export * as Constants from '@utils/constants';
