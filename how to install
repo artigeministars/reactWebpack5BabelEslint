@@ -26,4 +26,11 @@ npm install github-release-notes -g
 npm i -D husky lint-staged
 npx husky install
 npx husky add .husky/pre-commit "npx --no-install lint-staged"
-# npm install -D postcss sass@1.32 postcss-preset-env autoprefixer
+npm install axios --save
+npm install -S react-router-dom @types/react-router-dom
+## add ["@babel/plugin-syntax-dynamic-import"] to .babelrc plugin part
+npm install @loadable/component --save
+npm i --save-dev @types/loadable__component
+npm install @material-ui/core @material-ui/icons -S
+npm install -D @types/material-ui
+## npm install @mui/icons-material -S
