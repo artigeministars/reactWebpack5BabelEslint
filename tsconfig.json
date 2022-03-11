@@ -4,6 +4,9 @@
          "paths": {
            "@components/*":["src/components/*"],
 		   "@utils/*": ["src/utils/*"],
+		   "@axios/*": ["src/axios/*"],
+		   "@services/*": ["src/services/*"],
+		   "@models/*": ["src/models/*"]
          },
         "module": "commonjs",
         "target": "es5",

@@ -12,3 +12,14 @@ export const PAGE_TITLE_SETTINGS = "Settings"
 export const FOOTER_HEIGHT = 30
 export const HEADER_HEIGHT = 60
 export const DRAWER_WIDTH = 250
+// Axios base url
+export enum POST_CONSTANTS {
+    POSTBASEURL = "https:/localhost/"
+}
+
+export enum POST_CRUD {
+    addPosts = "/Posts",
+    getPosts = "/Posts",
+    deletePost = "/Posts",
+    putPost = "/Posts"
+}

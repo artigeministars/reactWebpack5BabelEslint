@@ -66,6 +66,9 @@ const config: Configuration = {
     alias: {
       "@components":path.resolve("./src/components/"),
       "@utils":path.resolve("./src/utils/"),
+      "@axios":path.resolve("./src/axios/"),
+      "@services":path.resolve("./src/services/"),
+      "@models":path.resolve("./src/models/"),
     },
     extensions: [".tsx", ".ts", ".js",".scss",".css",".json"],
   },
