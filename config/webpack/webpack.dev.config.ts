@@ -4,6 +4,8 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import ESLintPlugin from "eslint-webpack-plugin";
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import * as webpack from 'webpack';
+import * as webpackDevServer from 'webpack-dev-server';
 
 const config: Configuration = {
 	mode: "development",

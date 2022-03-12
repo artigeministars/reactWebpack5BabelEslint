@@ -38,6 +38,7 @@ npm install -D @types/redux @types/react-redux
 npm install -S redux react-redux @reduxjs/toolkit
 npm install --save-dev redux-devtools-extension
 ## npm uninstall redux redux-thunk reselect
+## npm uninstall @types/webpack
 To be clear, we're still using these packages and need to have them installed. 
 However, because Redux Toolkit depends on them, they'll be installed automatically 
 when we install @reduxjs/toolkit, 
